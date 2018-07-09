@@ -1,0 +1,92 @@
+The casino has introduced a new game in which there are M vertical chutes each containing N single digit (possibly zero) numbers. You can choose any chute and draw the bottom number and when you do this all the other numbers in the chute descend by one slot. You need to build the largest integer using this process drawing all the numbers from the chutes. For example, in the following example, we have three chutes of four numbers each and the largest number that can be drawn is 469534692781. Given the number of chutes and the numbers in each chute, write a program to find the largest integer that could be formed using the above process.
+
+com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@41bf88fd:image1.png
+
+to find the largest integer that could be formed using the above process.
+
+Constraints
+1 ? M ? 20, 1 ? N ? 50
+
+Input Format
+First line contains M,N two comma separated integers giving the number of chutes and the number of digits in each chute
+
+The next M lines each contain N comma separated digits, giving the digits from top to bottom in each of the chutes.
+
+Output
+One line containing the largest integer that could be formed.
+
+Test Case
+TestCase 1
+4,4
+
+7,5,5,2
+
+3,6,1,7
+
+8,7,0,4
+
+8,7,3,9
+
+
+
+9743782557163078
+
+TestCase 2
+2,3
+
+1,2,3
+
+2,4,6
+
+643221
+
+
+
+Explanation
+Example 1
+
+Input
+
+2,3
+
+1,2,3
+
+2,4,6
+
+Output
+
+643221
+
+Explanation
+
+M is 2 and N is 3 (there are 2 chutes with 3 digits in each). The chutes look like this
+
+com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@41bf88fd:image2.png
+
+The largest integer that can be formed is 643221
+
+Example 2
+
+Input
+
+4,4
+
+7,5,5,2
+
+3,6,1,7
+
+8,7,0,4
+
+8,7,3,9
+
+Output
+
+9743782557163078
+
+Explanation
+
+M is 4 and N is 4. The chutes look like this
+
+com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@41bf88fd:image3.png
+
+The largest integer that can be formed is 9743782557163078, and this is the output.

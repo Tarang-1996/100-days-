@@ -1,0 +1,10 @@
+#mathematical opeartion
+print(4+5)
+print(4*5)
+print(4**5)
+print(4/5)
+print(4-5)
+print(4.0/5)
+print(4/5.0)
+print(4%-5)
+print(4.0%5)
