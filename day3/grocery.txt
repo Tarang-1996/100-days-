@@ -1,0 +1,3 @@
+LIST of grocery is following
+1  pulse  =>  5kg
+2  rice  =>  4kg
