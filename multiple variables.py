@@ -1,0 +1,10 @@
+a,b,c,d=1,2,3,4;
+name,surname,age,gender='Tarang','Gupta',23,'female';
+print(a);
+print(b);
+print(c);
+print(d)
+print(name)
+print(surname)
+print(age)
+print(gender)
